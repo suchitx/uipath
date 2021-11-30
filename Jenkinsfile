@@ -10,7 +10,7 @@ pipeline {
 			
 	        UIPATH_ORCH_LOGICAL_NAME = "testictivstq"
 	        UIPATH_ORCH_TENANT_NAME = "DefaultTenant"
-	        UIPATH_ORCH_FOLDER_NAME = "My Workspace"
+	        UIPATH_ORCH_FOLDER_NAME = "suchi"
 	    }
 	
 
