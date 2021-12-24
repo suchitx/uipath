@@ -44,7 +44,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="36">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="72">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -81,6 +81,8 @@
       <AssemblyReference>UiPath.Testing</AssemblyReference>
       <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
       <AssemblyReference>ReporterForUiPath</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="TC108" sap:VirtualizedContainerService.HintSize="476,1706" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -167,7 +169,7 @@
               </uix:NGetText.Text>
             </uix:NGetText>
             <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="price detail confirmation" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134.666666666667" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="confirming details" Status="Compare" TakeScreenshot="True" />
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,85.3333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;verified&quot;]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,85.3333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;verified price details&quot;]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
